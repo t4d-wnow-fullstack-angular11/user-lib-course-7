@@ -1,0 +1,23 @@
+{
+  "name": "@t4d-wnow/user-lib",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^11.0.3",
+    "@angular/core": "^11.0.3",
+    "@angular/forms": "~11.0.3",
+    "@angular/material": "^11.0.1",
+    "lodash-es": "^4.17.15",
+    "@t4d-wnow/shared-lib": "file:dist/shared-lib"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/t4d-wnow-user-lib.umd.js",
+  "module": "fesm2015/t4d-wnow-user-lib.js",
+  "es2015": "fesm2015/t4d-wnow-user-lib.js",
+  "esm2015": "esm2015/t4d-wnow-user-lib.js",
+  "fesm2015": "fesm2015/t4d-wnow-user-lib.js",
+  "typings": "t4d-wnow-user-lib.d.ts",
+  "metadata": "t4d-wnow-user-lib.metadata.json",
+  "sideEffects": false
+}
